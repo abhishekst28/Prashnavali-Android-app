@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_home_black_24dp" android:id="@+id/menu_home" android:title="Home"/>
+    <item android:icon="@drawable/ic_baseline_info_24" android:id="@+id/info" android:title="Information"/>
+    <item android:icon="@drawable/ic_settings_black_24dp" android:id="@+id/menu_setting" android:title="Setting"/>
+    <item android:icon="@drawable/ic_baseline_share_24" android:id="@+id/share" android:title="Share"/>
+    <item android:icon="@drawable/ic_baseline_feedback_24" android:id="@+id/feedback" android:title="Feedback"/>
+</menu>

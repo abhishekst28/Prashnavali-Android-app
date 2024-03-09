@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/relativeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0.498" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/imgs" app:layout_constraintVertical_bias="0.325">
+        <TextView android:textSize="20dp" android:textColor="#ae0000" android:id="@+id/msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="50dp" android:layout_marginRight="20dp" android:layout_below="@+id/imgs" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_marginHorizontal="20dp"/>
+        <Button android:id="@+id/btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="243dp" android:text="Start" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/imgs" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:id="@+id/img2" android:layout_width="139dp" android:layout_height="127dp" android:layout_marginLeft="15dp" android:layout_marginTop="150dp" android:layout_marginRight="15dp" android:src="@drawable/slot5"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
